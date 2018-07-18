@@ -1,9 +1,18 @@
-Projekt Sterownika na ATmega32:
+Projekt Sterownika uc AVR ATmega32:
 - sterowanie 4 przekaznikami
-- komunikacja przez UART: wizualizacja temperatur na PC, oraz obs≥ugπ komend (dodany bufor cykliczny)
-- konikacja z zewnetrznπ pamieciπ EEPROM przez interfejs TWI
+- komunikacja przez UART: wizualizacja temperatur na PC, oraz obs≈Çug≈° komend (dodany bufor cykliczny)
+- konikacja z zewnetrzn≈° pamieci≈° EEPROM przez interfejs TWI
 - konikacja z RTC przez interfejs TWI
-- obs≥uga 2 termometrÛw DS18B20 wraz z automatycznym wyszukiwaniem
-- obs≥uga PWM (LED RBG) wraz z funkcjπ p≥ynnego przechodzenia miÍdzy kolorami
-- obs≥uga LCD, dodane 3 poziomowe menu
-- obs≥uga 3 przyciskÛw na przerwaniach
+- obs≈Çuga 2 termometr√≥w DS18B20 wraz z automatycznym wyszukiwaniem
+- obs≈Çuga PWM (LED RBG) wraz z funkcj≈° p≈Çynnego przechodzenia miƒôdzy kolorami
+- obs≈Çuga LCD, dodane 3 poziomowe menu
+- obs≈Çuga 3 przycisk√≥w na przerwaniach
+
+Project for uC AVR ATmega 32:
+- Controlling 4 relays
+- 4 buttons , 3 used interupts
+- UART: visu in PC, command recognition (used cyclic buffer)
+- TWI communication: EEPROM, RTC
+- OneWire: DS18B20 with scanning function
+- PWM: LED RBG
+- LCD with 3 level menu
